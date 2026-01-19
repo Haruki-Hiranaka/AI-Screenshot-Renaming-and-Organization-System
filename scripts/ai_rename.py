@@ -26,11 +26,15 @@ with open(image_path, "rb") as f:
     image_b64 = base64.b64encode(f.read()).decode("utf-8")
 
 prompt = (
-    "This is a screenshot.\n"
-    "Understand its content and generate a concise Japanese file name.\n"
-    "Format: <Category>_<Summary>\n"
-    "Categories: Slack, Notion, Browser, Code, Settings, Other\n"
-    "Do not include file extension."
+    "This is a macOS screenshot.\n"
+    "Understand the content and generate a concise, natural Japanese filename.\n"
+    "Rules:\n"
+    "- Do NOT include any category prefixes.\n"
+    "- Use clear nouns and short phrases.\n"
+    "- Avoid generic words like '画面' or 'スクリーンショット' unless necessary.\n"
+    "- Keep it under 20 Japanese characters if possible.\n"
+    "- Do not include the file extension.\n"
+    "Output ONLY the filename.\n"
 )
 
 try:
