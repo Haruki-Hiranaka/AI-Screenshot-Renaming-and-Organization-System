@@ -1,4 +1,4 @@
-# AI Screenshot Renaming and Organization System (SnapSense)
+# AI Screenshot Renaming and Organization System
 
 A macOS automation that organizes screenshots into date-based folders and renames them semantically using Gemini Vision (gemini-2.5-flash).
 
