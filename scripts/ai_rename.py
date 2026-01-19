@@ -29,10 +29,10 @@ prompt = (
     "This is a macOS screenshot.\n"
     "Understand the content and generate a concise, natural Japanese filename.\n"
     "Rules:\n"
-    "- Do NOT include any category prefixes.\n"
+    "Format: <Category>_<Summary>"
     "- Use clear nouns and short phrases.\n"
     "- Avoid generic words like '画面' or 'スクリーンショット' unless necessary.\n"
-    "- Keep it under 20 Japanese characters if possible.\n"
+    "- Keep it under 20 characters if possible.\n"
     "- Do not include the file extension.\n"
     "Output ONLY the filename.\n"
 )
