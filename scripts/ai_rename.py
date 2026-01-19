@@ -55,7 +55,7 @@ try:
         os.rename(image_path, new_path)
 
 except Exception as e:
-    # 失敗時は何もしない（安全設計）
+    # 失敗時は何もしない
     pass
 
 
